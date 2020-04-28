@@ -35,6 +35,17 @@ nav li
   white-space:nowrap;
 }
 
+.here
+{
+  font-size:250%;
+  display: inline;
+  padding:5px;
+  border:5px solid #ffff00;
+  border-radius:20px;
+  background-color:#ff33cc;
+  white-space:nowrap;
+}
+
 nav a:link  /*links in NAVBAR */
   {
     color:#00cc00;
@@ -71,11 +82,14 @@ nav a:active
 #pagetitle
 {
   display:inline;
+  left:3vw;
   border: 4px solid black;
   border-radius: 20px;
   background-color: #00cc00;
   margin-right:20px;
   padding:5px;
+  right:3vw;
+  width:45vw;
 }
 #subtitle
 {
@@ -85,6 +99,7 @@ nav a:active
   background-color: #00cc00;
   margin-left:20px;
   padding:5px;
+  width:45vw;
 }
 
 body
@@ -129,10 +144,10 @@ body
 
 #footer /* Tool bar functions */
 {
-position:fixed;
+position:stick;
 bottom:0px;
 left:2px;
-margin-left:12px;
+margin-left:0px;
 margin-bottom:6px;
 padding-right: 5px;
 background-color: #00eeff;

@@ -1,0 +1,163 @@
+/* This is the CSS file for module 3 submission.
+* stylesheetmain.css
+* by Samuel Kraus
+*/
+
+/* Top Navigation Panel Begin */
+
+body
+{
+  background-color:white;
+  background-size: cover;
+  width:auto;
+  height:auto;
+  margin-left:-1px;
+  margin-top:-1px;
+}
+
+#heading
+{
+  position:static;
+  width:100vw;
+  height:5em;
+  color:white;
+  background-color:#006600;
+  padding:0em;
+  border: 4px solid black;
+}
+
+#heading img
+{
+  position:relative;
+  width:300px;
+  height:100px;
+}
+
+#heading h1{
+  position:absolute;
+  right:10px;
+  text-align:left;
+}
+
+nav
+{
+  position:static;
+  width:100vw;
+  height:auto;
+  background-color:black;
+  padding-top: 0em;
+  padding-bottom: 1em;
+  border: 4px solid black;
+}
+
+nav ul
+{
+  list-style:none;
+  text-align:left;
+  line-height:4em;
+  border:1px solid yellow;
+  border-radius:50px;
+}
+
+nav li
+{
+  font-size:150%;
+  display: inline;
+  margin:5px;
+  padding:10px;
+  border:2px solid black;
+  border-radius:20px;
+  background-color:#0a017e;
+  white-space:nowrap;
+}
+
+.here
+{
+  font-size:150%;
+  display: inline;
+  padding:10px;
+  border:5px solid #80ff80;
+  border-radius:20px;
+  background-color:#2d0080;
+  white-space:nowrap;
+}
+
+nav a:link  /*links in NAVBAR */
+  {
+    color:#00cc00;
+    text-decoration: none;
+  }
+nav a:visited
+  {
+    color:#00cc00;
+    text-decoration: none;
+  }
+nav a:hover
+  {
+    color:#80ff80;
+    text-decoration: none;
+  }
+nav a:active
+  {
+    color:#ff33cc;
+    text-decoration: none;
+    border-radius:10px;
+    background-color:white;
+  }
+  /*Navigation Panel End*/
+
+#main
+{
+  position:static;
+  margin-top:1px;
+  background-color: #006600;
+  width:100vw;
+  border: 4px solid black;
+  border-radius:0px 0px 10px 10px;
+  padding-bottom:20px;
+}
+
+#main h2
+{
+  background-color:#00eeff;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding:5px;
+  margin-left:8px;
+}
+
+#main p
+{
+  background-color:#00eeff;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding:5px;
+  margin-left:2vw;
+  width:90vw;
+  font-size: 3vw;
+}
+
+#main div.actionContainer
+{
+  text-align:center;
+}
+
+.buttonstyle
+{
+    padding:1em;
+    margin:1em;
+    color:black;
+    background-color:white;
+}
+
+#footer /* Tool bar functions */
+{
+position:sticky;
+bottom:-.1em;
+width:100vw;
+height:2em;
+background-color: #00eeff;
+border: 4px solid black;
+border-radius:10px;
+text-align:center;
+}
