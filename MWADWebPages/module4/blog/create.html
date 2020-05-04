@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>
+      Infinite Science - Login
+    </title>
+
+    <link rel='stylesheet' href='http://krausladenshome.centralus.cloudapp.azure.com/module4/blog/science.css'>
+
+    <script type="text/javascript"
+    src="https://platform-api.sharethis.com/js/sharethis.js#property=5ea7eafd311af400127bcc07&product=inline-share-buttons"
+    async="async"></script>
+
+  </head>
+
+<!-- NECK -->
+
+  <body>
+    <header>
+      <h1> Infinite Science </h1>
+      <div id='utilitybar'>
+        <a class='here' href='http://krausladenshome.centralus.cloudapp.azure.com/module4/blog/login.html'> Login </a>
+      </div>
+    </header> <!-- header close -->
+
+    <nav>
+        <a href='http://krausladenshome.centralus.cloudapp.azure.com/module4/blog/index.html'> Home </a>
+        <a href='http://krausladenshome.centralus.cloudapp.azure.com/module4/blog/biology.html'> Biology </a>
+        <a href='http://krausladenshome.centralus.cloudapp.azure.com/module4/blog/physics.html'> Physics </a>
+        <a href='http://krausladenshome.centralus.cloudapp.azure.com/module4/blog/environment.html'> Environment </a>
+        <a href='http://krausladenshome.centralus.cloudapp.azure.com/module4/blog/outerspace.html'>Outer Space </a>
+        <a href='http://krausladenshome.centralus.cloudapp.azure.com/module4/test.html'> Test </a>
+    </nav> <!-- nav close -->
+
+    <main>
+      <h3>Log in</h3>
+      <br>
+      <div id='logincontainer'>
+        <form action="login.php" method="post">
+          <div id='loginform'>
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <br>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <label for="psw"><b>Confirm Password</b></label>
+            <input type="password" placeholder="Enter Password" name="confpsq" required>
+            <br><br>
+            </div>
+          <div id='forgotlink'>
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember">Remember me
+            </label>
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw"><a href='forgotpassword.html'>Forgot password?</a></span>
+          </div>
+        </form>
+      </div>
+    </main> <!-- main close -->
+
+    <footer>
+      <div class="sharethis-inline-share-buttons"></div>
+    </footer> <!-- footer close -->
+
+  </body>
+</html>
