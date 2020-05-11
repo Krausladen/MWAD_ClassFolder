@@ -22,6 +22,7 @@
       <h1> Infinite Science </h1>
       <div id='utilitybar'>
         <a class='here' href='http://krausladenshome.centralus.cloudapp.azure.com/module4/blog/login.html'> Login </a>
+        <a href='http://krausladenshome.centralus.cloudapp.azure.com/module4/four.html'> Module 4</a>
       </div>
     </header> <!-- header close -->
 
@@ -34,26 +35,53 @@
         <a href='http://krausladenshome.centralus.cloudapp.azure.com/module4/test.html'> Test </a>
     </nav> <!-- nav close -->
 
-    <main>
-      <h3>Log in</h3>
+    <main><!-- copy paste mark -->
+      <h1>Log in</h1>
       <br>
-      <div id='logincontainer'>
+      <div id='logincontainer' class='loginpagebox'>
         <form action="login.php" method="post">
-          <div id='loginform'>
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
+          <div class='loginformlabels'>
+            <label for="uname"><b>Username:</b></label>
             <br>
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-            <br><br>
-            </div>
-          <div id='forgotlink'>
-            <button type="submit">Login</button>
-            <label>
-              <input type="checkbox" checked="checked" name="remember">Remember me
+            <label for="psw"><b>Password:</b></label>
+          </div>
+          <div class='loginformtextboxes'>
+            <input class='logintextbox' type="text" placeholder="Enter Username" name="uname" required>
+            <br>
+            <input class='logintextbox' type="password" placeholder="Enter Password" name="psw" required>
+          <br>
+            <button class='keybuttonlogin' type="submit">LOG IN</button>
+            <label id='rememberme'>
+              <input id='remembermecheckbox' type="checkbox" checked="checked" name="remember">Remember me
             </label>
-            <button type="button" class="cancelbtn">Cancel</button>
-            <span class="psw"><a href='forgotpassword.html'>Forgot password?</a></span>
+            <br>
+            <button id='cancel' type="button" class="cancelbtn">Cancel</button>
+            <span class="psw"><a id='forgotlink' href='forgotpassword.html'>Forgot password?</a></span>
+          </div>
+        </form>
+      </div>
+      <br>
+      <h1>Create User</h1>
+      <br>
+      <div id='createprofilecontainer' class='loginpagebox'>
+        <form action="createuser.php" method="post">
+          <div id='createform'>
+            <div class='loginformlabels'>
+              <label for="uname"><b>Username:</b></label>
+              <br>
+              <label for="psw"><b>Password:</b></label>
+              <br>
+              <label for="psw"><b>Confirm Password:</b></label>
+            </div>
+            <div class='loginformtextboxes'>
+              <input class='logintextbox' type="text" placeholder="Enter Username" name="uname" required>
+              <br>
+              <input class='logintextbox' type="password" placeholder="Enter Password" name="psw" required>
+              <br>
+              <input class='logintextbox' type="password" placeholder="Confirm Password" name="confpsq" required>
+              <br>
+              <button class='keybuttonlogin' type='submit'>CREATE</button>
+            </div>
           </div>
         </form>
       </div>

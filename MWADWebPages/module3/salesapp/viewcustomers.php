@@ -12,7 +12,7 @@ echo 'Verifying connection...<br>';
 if ($conn->connect_error){
   die ("Database Connection Failure " . $conn->connect_error);
 }
-echo 'Successfully conencted to database...<br>';
+echo 'Successfully connected to database...<br>';
 
 $myquery = "SELECT customer_id, customername, customercode, salesperson_id FROM customer";
 $queryresult = $conn->query($myquery);

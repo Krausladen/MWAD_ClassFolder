@@ -1,0 +1,12 @@
+Configuration File
+verbose = true
+
+port = 27017
+
+dbpath=c:\mongodb\data\db\
+
+noauth = true
+
+maxConns = 10
+
+rest = true

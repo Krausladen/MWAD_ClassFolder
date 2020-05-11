@@ -52,15 +52,16 @@ Mobile
     font-size:150%;
   }
 
-  #logincontainer {
+  .loginpagebox {
     position:static;
-    height:auto;
-    width:99%;
+    height:40em;
+    width:calc(100%-50px);
     border-left:2px solid #1a1a1a;
     border-right:2px solid #1a1a1a;
     border-radius:10px;
     padding:10px;
     background-color:#e6e6e6;
+    padding-top:4em;
   }
 
   #loginform {
@@ -69,6 +70,30 @@ Mobile
     text-align:right;
     width:calc(100% - 40px);
     height:100%;
+    background-color:yellow;
+  }/*Not used*/
+
+  .keybuttonlogin {
+    width:100%;
+    height:3em;
+    border:5px solid black;
+    margin-top:1em;
+    font-size:300%;
+    background-color:red;
+  }
+
+  #rememberme {
+    font-size:325%;
+  }
+
+  #remembermecheckbox {
+    margin:1em;
+    height:4em;
+    width:4em;
+  }
+
+  #cancel {
+    font-size:275%;
   }
 
   #forgotlink {
@@ -77,6 +102,36 @@ Mobile
     text-align:right;
     width:calc(100% - 40px);
     height:100%;
+    font-size:275%;
+  }
+
+  .loginformlabels {
+    float:left;
+    padding:.1em;
+    text-align:right;
+    font-size:275%; /* TEST */
+    width:8.5em;
+    border-right:2px solid black;
+    border-radius:.5em;
+  }
+
+  .loginformtextboxes {
+    float:right;
+    padding:.1em;
+    vertical-align;
+    height:3em;
+  }
+
+  .logintextbox {
+    font-size:275%;
+    border-left:5px solid black;
+    float:right;
+  }
+
+  #createbutton {
+    margin-top:3px;
+    height:1.5em;
+    float:left;
   }
 
   nav {
@@ -143,6 +198,19 @@ Mobile
     text-align:left;
     padding-left:1em;
     padding-bottom:4em;
+    margin-bottom:2em;
+  }
+
+  main h1 {
+    padding:1em;
+    border-bottom:2px solid #e6e6e6;
+  }
+
+  .articlebox {
+    border:1px solid #e6e6e6;
+    border-radius:10px;
+    padding:1em;
+    margin-top: 2em;
   }
 
   footer {
@@ -160,7 +228,7 @@ Mobile
 /*
 Desktop
  */
-@media only screen and (min-device-width:700px) {
+@media only screen and (min-device-width:701px) {
   body {
     background-color:white;
     width:auto;
@@ -205,9 +273,9 @@ Desktop
     margin-left:.1em;
   }
 
-  #logincontainer {
+  .loginpagebox {
     position:static;
-    height:auto;
+    height:9em;
     width:calc(100%-50px);
     border-left:2px solid #1a1a1a;
     border-right:2px solid #1a1a1a;
@@ -230,6 +298,37 @@ Desktop
     text-align:right;
     width:calc(100% - 40px);
     height:100%;
+  }
+
+  .loginformlabels {
+    float:left;
+    padding:.1em;
+    text-align:right;
+    vertical-align;
+    font-size:150%;
+  }
+
+  .loginformtextboxes {
+    float:left;
+    padding:.1em;
+    vertical-align;
+    font-size:145%;
+  }
+
+  .keybuttonlogin {
+    width:auto;
+    padding:.5em;
+    height:3em;
+    border:1px solid black;
+    margin-top:1em;
+    background-color:red;
+    border-radius: 10px;
+  }
+
+  #createbutton {
+    margin-top:3px;
+    height:1.5em;
+    float:left;
   }
 
   nav {
@@ -293,16 +392,27 @@ Desktop
     border-left:1px solid #a6a6a6;
     padding:1em;
     width:calc(100% - 230px);
+    margin-bottom:2em;
   }
 
-  main p {
-    font-size:110%;
+  main h1 {
+    padding:1em;
+    padding-bottom:-.5em;
+    border-bottom:2px solid #e6e6e6;
+    margin-bottom:.5em;
+  }
+
+  .articlebox {
+    border:1px solid #e6e6e6;
+    border-radius:10px;
+    padding:1em;
+    margin-top: 2em;
   }
 
   footer {
     position:fixed;
     left:10px;
-    bottom:0px;
+    bottom:5px;
     width:calc(100% - 30px);
     height:2em;
     background-color:#e6e6e6;
