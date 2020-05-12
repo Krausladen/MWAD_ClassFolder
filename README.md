@@ -1,7 +1,10 @@
 # MWAD_ClassFolder
 -Mobile Web Application Development Readme
+
 ############
---Table of Contents
+
+Table of Contents
+---Summary of Pages
 -----Index Page
 -----Module 1
 -----Module 2
@@ -11,7 +14,13 @@
 -----Module 6 *not in use
 -----SalesApp
 -----Infinite Science
+---Install Instructions
+---License
+---Credits
+
 ############
+
+Summary of Pages
 
 --Index Page
 The index page: http://krausladenshome.centralus.cloudapp.azure.com/index.html
@@ -79,5 +88,39 @@ The basis of the outerspace page is to serve as the center to all articles relat
 ---Login
 http://krausladenshome.centralus.cloudapp.azure.com/module4/blog/login.html
 The basis of the login page is to allow users to either create an account or log into the website.
+
+##########
+
+---Install Instructions
+There are no install instructions for this application.
+
+##########
+
+---Licensing
+Copyright (c) 2020 Samuel Kraus
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+##########
+
+---Credits
+This project was created by Samuel Kraus
+
 
 
