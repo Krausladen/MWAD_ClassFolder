@@ -58,7 +58,7 @@ Allows users to pull up all of the data related to
 --Infinite Science
 http://krausladenshome.centralus.cloudapp.azure.com/module4/blog/index.html
 Infinite science is meant to set up a science blog surrounding various science topics.  The webpage was built from scratch to 
-focus on building a clean, high quality webpage.  The template can be used for more than 
+focus on building a clean, high quality webpage.  The template can be used for any blog really.
 
 ---Biology
 http://krausladenshome.centralus.cloudapp.azure.com/module4/blog/biology.html
