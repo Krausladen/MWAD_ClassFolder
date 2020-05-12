@@ -11,7 +11,7 @@ Table of Contents
 -----Module 3  
 -----Module 4  
 -----Module 5 (not in use)  
------Module 6 (not in use) 
+-----Module 6 (not in use)  
 -----SalesApp  
 -----Infinite Science  
 ---Install Instructions  
