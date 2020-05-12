@@ -5,15 +5,15 @@
 
 Table of Contents
 ---Summary of Pages
------Index Page
------Module 1
------Module 2
------Module 3
------Module 4
------Module 5 *not in use
------Module 6 *not in use
------SalesApp
------Infinite Science
+-----Index Page  
+-----Module 1  
+-----Module 2  
+-----Module 3  
+-----Module 4  
+-----Module 5 (not in use)
+-----Module 6 (not in use)
+-----SalesApp  
+-----Infinite Science  
 ---Install Instructions
 ---License
 ---Credits
