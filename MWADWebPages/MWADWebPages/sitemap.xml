@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://krausladenshome.centralus.cloudapp.azure.com/</loc>
+  <lastmod>2020-05-04T04:12:18+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://krausladenshome.centralus.cloudapp.azure.com/index.html</loc>
+  <lastmod>2020-05-04T04:12:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://krausladenshome.centralus.cloudapp.azure.com/module1/one.html</loc>
+  <lastmod>2020-05-04T04:12:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://krausladenshome.centralus.cloudapp.azure.com/module2/two.html</loc>
+  <lastmod>2020-05-04T04:12:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://krausladenshome.centralus.cloudapp.azure.com/module3/three.html</loc>
+  <lastmod>2020-05-04T04:12:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://krausladenshome.centralus.cloudapp.azure.com/module4/four.html</loc>
+  <lastmod>2020-05-04T04:12:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://krausladenshome.centralus.cloudapp.azure.com/module5/five.html</loc>
+  <lastmod>2020-05-04T04:12:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://krausladenshome.centralus.cloudapp.azure.com/module6/six.html</loc>
+  <lastmod>2020-05-04T04:12:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://krausladenshome.centralus.cloudapp.azure.com/module3/salesapp/apphome.html</loc>
+  <lastmod>2020-05-04T04:12:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://krausladenshome.centralus.cloudapp.azure.com/module4/blog/index.html</loc>
+  <lastmod>2020-05-04T04:12:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://krausladenshome.centralus.cloudapp.azure.com/module3/salesapp/viewdataphp.html</loc>
+  <lastmod>2020-05-04T04:12:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://krausladenshome.centralus.cloudapp.azure.com/module3/salesapp/viewdataajax.html</loc>
+  <lastmod>2020-05-04T04:12:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://krausladenshome.centralus.cloudapp.azure.com/module4/blog/login.html</loc>
+  <lastmod>2020-05-04T04:12:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://krausladenshome.centralus.cloudapp.azure.com/module4/blog/biology.html</loc>
+  <lastmod>2020-05-04T04:12:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://krausladenshome.centralus.cloudapp.azure.com/module4/blog/physics.html</loc>
+  <lastmod>2020-05-04T04:12:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://krausladenshome.centralus.cloudapp.azure.com/module4/blog/environment.html</loc>
+  <lastmod>2020-05-04T04:12:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://krausladenshome.centralus.cloudapp.azure.com/module4/blog/outerspace.html</loc>
+  <lastmod>2020-05-04T04:12:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://krausladenshome.centralus.cloudapp.azure.com/module4/test.html</loc>
+  <lastmod>2020-05-04T04:12:18+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>

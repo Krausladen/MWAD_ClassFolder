@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Sam Kraus - Module Three
+    </title>
+    <link rel='stylesheet' href='http://krausladenshome.centralus.cloudapp.azure.com/module3/salesapp/three.css'>
+    <script src="FNs_salesapp.js"></script>
+    <script type="text/javascript"
+    src="https://platform-api.sharethis.com/js/sharethis.js#property=5ea7eafd311af400127bcc07&product=inline-share-buttons"
+    async="async"></script>
+  </head>
+  <body>
+    <div id='heading'>
+      <h1> by Samuel Kraus </h1>
+      <img src = 'http://krausladenshome.centralus.cloudapp.azure.com/module3/salesapp/salesapplogo.png'
+           alt = 'SalesApp Logo'/>
+    </div> <!-- header close -->
+    <nav>
+      <ul>
+        <li><a href='http://krausladenshome.centralus.cloudapp.azure.com/module3/three.html'>Module 3 Course Page</a></li>
+        <li><a href='http://krausladenshome.centralus.cloudapp.azure.com/module3/salesapp/apphome.html'>Module Three Demo</a></li>
+        <li class='here'><a href='http://krausladenshome.centralus.cloudapp.azure.com/module3/salesapp/viewdataphp.html'>View Data with PHP</a></li>
+        <li><a href='http://krausladenshome.centralus.cloudapp.azure.com/module3/salesapp/viewdataajax.html'>View Data with AJAX</a></li>
+      </ul>
+    </nav> <!-- nav close -->
+
+    <div id='main'>
+      <p>This page demonstrates viewing data via direct execution of the PHP file on click. This is the page intended to fulfill the requirements for module three.</p>
+      <div class ='actionContainer'>
+        <form action='viewcustomers.php' method='post'>
+          <input class='buttonstyle' type="submit" name=submit value="View Customers"/>
+        </form>
+        <p>Formatting the table is next.</p>
+      </div><!-- actionContainer close -->
+    </div> <!-- main close -->
+
+    <div id='footer'>
+      <div class="sharethis-inline-share-buttons"></div>
+    </div> <!-- footer close -->
+  </body>
+</html>

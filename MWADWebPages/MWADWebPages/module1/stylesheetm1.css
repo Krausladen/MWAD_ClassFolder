@@ -1,0 +1,22 @@
+/* This is the CSS file for module 1 submission.
+* samsmwadmodule1.css
+* by Samuel Kraus
+*/
+
+h1
+{
+  position:absolute;
+  top: 0px;
+  left: 300px;
+  width:auto;
+  border: 4px solid black; /* update color */
+  color:white;
+  border-radius: 20px;
+}
+
+body
+{
+  background-color: #890000;
+  min-width: 100%;
+  min-height:100%;
+}
