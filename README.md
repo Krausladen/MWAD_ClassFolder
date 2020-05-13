@@ -1,10 +1,10 @@
 # MWAD_ClassFolder
 -Mobile Web Application Development Readme  
 
-COURSE PROJECT 
-by Samuel Kraus
-Rasmussen College
-##########
+COURSE PROJECT  
+by Samuel Kraus  
+Rasmussen College  
+##########  
 
 This project is the result of all homework assignments in Mobile Web Application Development at Rasmussen College in Spring Quartermester of 2020.
 
