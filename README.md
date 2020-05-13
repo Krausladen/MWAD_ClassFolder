@@ -1,11 +1,11 @@
 # MWAD_ClassFolder
--Mobile Web Application Development Readme
+-Mobile Web Application Development Readme  
 
 ############
 
-Table of Contents
----Summary of Pages
------Index Page  
+Table of Contents  
+---Summary of Pages  
+-----Index Page   
 -----Module 1  
 -----Module 2  
 -----Module 3  
