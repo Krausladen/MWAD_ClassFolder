@@ -1,0 +1,169 @@
+/* This is the CSS file for module 1 submission.
+* stylesheetmain.css
+* by Samuel Kraus
+*/
+
+
+/* Top Navigation Panel Begin */
+nav
+{
+  float;
+  width:102%;
+  height:auto;
+  background-color:black;
+  border-radius:50px;
+}
+
+nav ul
+{
+  list-style:none;
+  text-align:left;
+  line-height:4em;
+  border-radius:50px;
+  margin-left:150px;
+  margin-right:10px;
+}
+
+nav li
+{
+  font-size:250%;
+  display: inline;
+  padding:5px;
+  border:2px solid black;
+  border-radius:20px;
+  background-color:#000099;
+  white-space:nowrap;
+}
+
+.here
+{
+  font-size:250%;
+  display: inline;
+  padding:5px;
+  border:5px solid #ffff00;
+  border-radius:20px;
+  background-color:#ff33cc;
+  white-space:nowrap;
+}
+
+nav a:link  /*links in NAVBAR */
+  {
+    color:#00cc00;
+  }
+nav a:visited
+  {
+    color:#00cc00;
+  }
+nav a:hover
+  {
+    color:#80ff80;
+  }
+nav a:active
+  {
+    color:#ff33cc;
+  }
+  /*Navigation Panel End*/
+
+#heading
+{
+  float:left;
+  margin:5px;
+  width:100%;
+  text-align:center;
+}
+
+#heading img
+{
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+#pagetitle
+{
+  display:inline;
+  left:3vw;
+  border: 4px solid black;
+  border-radius: 20px;
+  background-color: #00cc00;
+  margin-right:20px;
+  padding:5px;
+  right:3vw;
+  width:45vw;
+}
+#subtitle
+{
+  display:inline;
+  border: 4px solid black;
+  border-radius: 20px;
+  background-color: #00cc00;
+  margin-left:20px;
+  padding:5px;
+  width:45vw;
+}
+
+body
+{
+  background-color: #000099;
+  min-width: 100%;
+  min-height:100%;
+}
+
+
+#main
+{
+  float:left;
+  margin-top:10px;
+  background-color: #006600;
+  width:100%;
+  border: 4px solid black;
+  border-radius:0px 0px 10px 10px;
+  margin-right:5px;
+  padding-bottom:50px;
+}
+
+#main h2
+{
+  font-size:150%;
+  background-color:#00eeff;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding:5px;
+  margin-left:8px;
+}
+
+#main p
+{
+  background-color:#00eeff;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding:5px;
+  margin-left:8px;
+  width:95%;
+}
+
+#footer /* Tool bar functions */
+{
+position:stick;
+bottom:0px;
+left:2px;
+margin-left:0px;
+margin-bottom:6px;
+padding-right: 5px;
+background-color: #00eeff;
+border: 4px solid black;
+border-radius:10px;
+width:100%;
+}
+
+div.bodyimage
+{
+  width:auto;
+  height:auto;
+  text-align:center;
+}
+
+#support
+{
+
+}
