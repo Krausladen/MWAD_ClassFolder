@@ -96,6 +96,11 @@ There are no install instructions for this application.
 
 ##########
 
+---Usage  
+The site can be used as a template for taking class notes, linking assignments, or blogging.
+
+##########
+
 ---Licensing  
 Copyright (c) 2020 Samuel Kraus
 
